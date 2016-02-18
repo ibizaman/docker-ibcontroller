@@ -12,7 +12,7 @@ prefix. For example, using docker compose yaml format:
 ```
 services:
     ib:
-        image: ibizaman/ib-controller
+        image: ibizaman/docker-ibcontroller
         environment:
             - IB_IbLoginId=username
             - IB_IbPassword=password
