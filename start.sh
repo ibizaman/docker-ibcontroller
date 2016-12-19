@@ -20,7 +20,7 @@ for VAR in `env`; do
     fi
 done
 
-socat TCP-LISTEN:4003,fork TCP:127.0.0.1:4001&
+socat TCP-LISTEN:4003,fork TCP:127.0.0.1:4002&
 
 /usr/sbin/xvfb-run \
     --auto-servernum \
